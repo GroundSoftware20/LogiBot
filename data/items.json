@@ -1,0 +1,1799 @@
+{
+    "items": [
+      {
+        "itemName": "\"Dusk\" ce.III",
+        
+        "alternative_names": [
+			"Dusk"
+		],
+		"cost": {
+          "bmat": 165
+        }
+      },
+      {
+        "itemName": "Booker Storm Rifle Model 838",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 165
+        }
+      },
+      {
+        "itemName": "Aalto Storm Rifle 24",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 165
+        }
+      },
+      {
+        "itemName": "7.92mm",
+        "alternative_names": [
+			"7.92"
+		],
+		"cost": {
+          "bmat": 120
+        },
+        "damageType": "Deals light kinetic damage"
+      },
+      {
+        "itemName": "Catara mo.II",
+        "alternative_names": [
+			"Catara"
+		],
+		"cost": {
+          "bmat": 165
+        }
+      },
+      {
+        "itemName": "KRN886-127 Gast Machine Gun",
+        "alternative_names": [
+			"Gast"
+		],
+		"cost": {
+          "rmat": 25
+        },
+        "damageType": "Deals heavy kinetic damage"
+      },
+      {
+        "itemName": "Malone MK.2",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 25
+        }
+      },
+      {
+        "itemName": "A3 Harpa Fragmentation Grenade",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "emat": 20
+        },
+        "damageType": "Deals light kinetic damage"
+      },
+      {
+        "itemName": "Cascadier 873",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 60
+        }
+      },
+      {
+        "itemName": "Bomastone Grenade",
+        "alternative_names": [
+			"Bomastone"
+		],
+		"cost": {
+          "bmat": 100,
+          "emat": 20
+        },
+        "damageType": "Deals shrapnel damage",
+        "damageDesc": "Always causes target to bleed"
+      },
+      {
+        "itemName": "8mm",
+        "alternative_names": [
+			"8"
+		],
+		"cost": {
+          "bmat": 40
+        },
+        "damageType": "Deals light kinetic damage"
+      },
+      {
+        "itemName": "Cometa T2-9",
+        "alternative_names": [
+			"Cometa"
+		],
+		"cost": {
+          "bmat": 60
+        }
+      },
+      {
+        "itemName": "The Hangman 757",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 125
+        }
+      },
+      {
+        "itemName": "0.44",
+        "alternative_names": [
+			"44"
+		],
+		"cost": {
+          "bmat": 40
+        },
+        "damageType": "Deals light kinetic damage"
+      },
+      {
+        "itemName": "Argenti r.II Rifle",
+        "alternative_names": [
+			"Argenti"
+		],
+		"cost": {
+          "bmat": 100
+        }
+      },
+      {
+        "itemName": "Volta r.I Repeater",
+        "alternative_names": [
+			"Volta",
+            "Repeater"
+		],
+		"cost": {
+          "bmat": 100
+        }
+      },
+      {
+        "itemName": "Fuscina pi.I",
+        "alternative_names": [
+			"Fuscina"
+		],
+		"cost": {
+          "bmat": 140
+        }
+      },
+      {
+        "itemName": "KRR2-790 Omen",
+        "alternative_names": [
+			"Omen"
+		],
+		"cost": {
+          "bmat": 155
+        }
+      },
+      {
+        "itemName": "KRR3-792 Auger",
+        "alternative_names": [
+			"Auger"
+		],
+		"cost": {
+          "bmat": 200,
+          "rmat": 25
+        }
+      },
+      {
+        "itemName": "Sampo Auto-Rifle 77",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 125
+        }
+      },
+      {
+        "itemName": "Blakerow 871",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 140
+        }
+      },
+      {
+        "itemName": "Clancy Cinder M3",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 130
+        }
+      },
+      {
+        "itemName": "No.2 Loughcaster",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        }
+      },
+      {
+        "itemName": "Clancy-Raca M4",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 200,
+          "rmat": 15
+        }
+      },
+      {
+        "itemName": "7.62mm",
+        "alternative_names": [
+			"7.62"
+		],
+		"cost": {
+          "bmat": 80
+        },
+        "damageType": "Deals light kinetic damage"
+      },
+      {
+        "itemName": "Brasa Shotgun",
+        "alternative_names": [
+			"Brasa"
+		],
+		"cost": {
+          "bmat": 80
+        }
+      },
+      {
+        "itemName": "Buckshot",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 80
+        },
+        "damageType": "Deals light kinetic damage"
+      },
+      {
+        "itemName": "No.1 \"The Liar\" Submachinegun",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 120
+        }
+      },
+      {
+        "itemName": "Fiddler Submachine Gun Model 868",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 120
+        }
+      },
+      {
+        "itemName": "\"The Pitch Gun\" mc. V",
+        "alternative_names": [
+			"Pitch Gun",
+            "The Pitch Gun"
+		],
+		"cost": {
+          "bmat": 80
+        }
+      },
+      {
+        "itemName": "\"Lionclaw\" mc.VIII",
+        "alternative_names": [
+			"Lionclaw"
+		],
+		"cost": {
+          "bmat": 120
+        }
+      },
+      {
+        "itemName": "9mm SMG",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 80
+        },
+        "damageType": "Deals light kinetic damage"
+      },
+      {
+        "itemName": "PT-815 Smoke Grenade",
+        "alternative_names": [
+			"Smoke",
+            "Smoke Grenade"
+		],
+		"cost": {
+          "bmat": 120
+        }
+      },
+      {
+        "itemName": "Green Ash Grenade",
+        "alternative_names": [
+			"Green Ash"
+		],
+		"cost": {
+          "bmat": 140
+        },
+        "damageType": "Deals poisonous gas damage",
+        "damageDesc": "Causes damage over time"
+      },
+      {
+        "itemName": "12.7mm",
+        "alternative_names": [
+			"12.7"
+		],
+		"cost": {
+          "bmat": 100
+        }
+      },
+      {
+        "itemName": "\"Typhon\" ra.XII",
+        "alternative_names": [
+			"Typhon"
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 5
+        },
+        "highVelocityBonus": "Equipped with a high velocity barrel that deals 50% extra damage per shot.",
+        "isMountable": true
+      },
+      {
+        "itemName": "135 Neville Anti-Tank Rifle",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 150
+        }
+      },
+      {
+        "itemName": "20mm",
+        "alternative_names": [
+			"20"
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "damageType": "Deals anti-tank explosive damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles."
+      },
+      {
+        "itemName": "Venom c.II 35",
+        "alternative_names": [
+			"Venom"
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 15
+        },
+        "damageType": "Deals armor piercing damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles.",
+        "vehiclePenChance": "High chance to penetrate armored vehicles."
+      },
+      {
+        "itemName": "Bane 45",
+        "alternative_names": [
+			"Bane"
+		],
+		"cost": {
+          "bmat": 150,
+          "rmat": 40
+        },
+        "damageType": "Deals armor piercing damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles.",
+        "vehiclePenChance": "High chance to penetrate armored vehicles."
+      },
+      {
+        "itemName": "Mounted Bonesaw MK.3",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 5
+        },
+        "damageType": "Deals armor piercing damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "High chance to penetrate armored vehicles."
+      },
+      {
+        "itemName": "Bonesaw MK.3",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 25
+        },
+        "damageType": "Deals armor piercing damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "High chance to penetrate armored vehicles."
+      },
+      {
+        "itemName": "AP/RPG",
+        "alternative_names": [
+			"AP RPG",
+            "AP"
+		],
+		"cost": {
+          "bmat": 60,
+          "emat": 75
+        },
+        "damageType": "Deals armor piercing damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles.",
+        "vehiclePenChance": "High chance to penetrate armored vehicles."
+      },
+      {
+        "itemName": "ARC/RPG",
+        "alternative_names": [
+			"ARC RPG",
+            "ARC"
+		],
+		"cost": {
+          "bmat": 60,
+          "emat": 75
+        },
+        "damageType": "Deals armor piercing damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "High chance to penetrate armored vehicles."
+      },
+      {
+        "itemName": "\"Molten Wind\" v.II Flame Torch",
+        "alternative_names": [
+			"Molten Wind"
+		],
+		"cost": {
+          "bmat": 185,
+          "rmat": 25
+        },
+        "highVelocityBonus": "Equipped with a high velocity barrel that deals 50% extra damage per shot.",
+        "isMountable": true
+      },
+      {
+        "itemName": "KLG901-2 Lunaire F",
+        "alternative_names": [
+			"Lunaire F",
+            "Lunaire"
+		],
+		"cost": {
+          "bmat": 50,
+          "rmat": 30
+        }
+      },
+      {
+        "itemName": "Mounted Fissura gd.I",
+        "alternative_names": [
+			"Mounted Fissura",
+            "Fissura"
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 5
+        }
+      },
+      {
+        "itemName": "Willow's Bane Model 845",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 165,
+          "rmat": 30
+        }
+      },
+      {
+        "itemName": "Tremola Grenade GPb-1",
+        "alternative_names": [
+			"Tremola",
+            "Tremola Grenade"
+		],
+		"cost": {
+          "bmat": 75,
+          "emat": 50
+        }
+      },
+      {
+        "itemName": "Lamentum mm.IV",
+        "alternative_names": [
+			"Lamentum"
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 5
+        },
+        "highVelocityBonus": "Equipped with a high velocity barrel that deals 50% extra damage per shot.",
+        "isMountable": true
+      },
+      {
+        "itemName": "Malone Ratcatcher MK.1",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 5
+        },
+        "isMountable": true
+      },
+      {
+        "itemName": "Daucus isg.III",
+        "alternative_names": [
+			"Daucus"
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 5
+        }
+      },
+      {
+        "itemName": "30mm",
+        "alternative_names": [
+			"30"
+		],
+		"cost": {
+          "bmat": 80,
+          "emat": 20
+        },
+        "damageType": "Deals explosive damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles."
+      },
+      {
+        "itemName": "Cremari Mortar",
+        "alternative_names": [
+			"Cremari"
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 25
+        }
+      },
+      {
+        "itemName": "Mortar Flare Shell",
+        "alternative_names": [
+            "Mortar Flare",
+            "Flare Shell",
+            "Flare"
+		],
+		"cost": {
+          "bmat": 60,
+          "emat": 10
+        }
+      },
+      {
+        "itemName": "Mortar Shrapnel Shell",
+        "alternative_names": [
+			"Shrapnel Shell",
+            "Mortar Shrapnel"
+		],
+		"cost": {
+          "bmat": 60,
+          "emat": 15
+        },
+        "damageType": "Deals shrapnel damage",
+        "damageDesc": "Always causes target to bleed"
+      },
+      {
+        "itemName": "Mortar Shell",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 60,
+          "emat": 35
+        },
+        "damageType": "Deals high explosive damage",
+        "damageDesc": "Reduced damage against trenches"
+      },
+      {
+        "itemName": "Ignifist 30",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 85,
+          "emat": 35
+        },
+        "damageType": "Deals armor piercing damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles.",
+        "vehiclePenChance": "High chance to penetrate armored vehicles."
+      },
+      {
+        "itemName": "BF5 White Ash Flask Grenade",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "emat": 40
+        },
+        "damageType": "Deals anti-tank explosive damage",
+        "damageDesc": "High chance of disabling Track subsystem"
+      },
+      {
+        "itemName": "Mammon 91-b",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "emat": 10
+        },
+        "damageType": "Deals explosive damage"
+      },
+      {
+        "itemName": "Anti-Tank Sticky Bomb",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 50,
+          "emat": 50
+        },
+        "damageType": "Deals anti-tank explosive damage",
+        "damageDesc": "High chance of disabling Track subsystem"
+      },
+      {
+        "itemName": "Cutler Foebreaker",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 5
+        },
+        "damageType": "Deals explosive damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles."
+      },
+      {
+        "itemName": "Cutler Launcher 4",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "rmat": 35
+        },
+        "damageType": "Deals explosive damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles."
+      },
+      {
+        "itemName": "R.P.G Shell",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 60,
+          "emat": 45
+        },
+        "damageType": "Deals explosive damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles."
+      },
+      {
+        "itemName": "150mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 120,
+          "hemat": 10
+        },
+        "damageType": "Deals high explosive damage",
+        "damageDesc": "Reduced damage against trenches"
+      },
+      {
+        "itemName": "120mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 60,
+          "emat": 15
+        },
+        "damageType": "Deals high explosive damage",
+        "damageDesc": "Reduced damage against trenches"
+      },
+      {
+        "itemName": "250mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 120,
+          "hemat": 25
+        },
+        "damageType": "Deals demolition damage"
+      },
+      {
+        "itemName": "68mm AT",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 120,
+          "emat": 120
+        },
+        "damageType": "Deals armor piercing damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles.",
+        "vehiclePenChance": "High chance to penetrate armored vehicles."
+      },
+      {
+        "itemName": "40mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 160,
+          "emat": 120
+        },
+        "damageType": "Deals explosive damage",
+        "damageDesc": "Can penetrate armored vehicles",
+        "vehiclePen": "Damage to the sides and rear of armored vehicles have a higher chance to penetrate at close range and at direct angles."
+      },
+      {
+        "itemName": "Warhead",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 200,
+          "hemat": 1000
+        }
+      },
+      {
+        "itemName": "Barbed Wire",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 15
+        }
+      },
+      {
+        "itemName": "Binoculars",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 75
+        }
+      },
+      {
+        "itemName": "Willow's Bane Ammo",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 135,
+          "hemat": 5
+        }
+      },
+      {
+        "itemName": "Hydra's Whisper",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "emat": 40
+        },
+        "damageType": "Deals demolition damage",
+        "damageDesc": "Destroys obstacles that can otherwise only be dismantled with Wrenches"
+      },
+      {
+        "itemName": "Havoc Charge",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 75,
+          "hemat": 10
+        }
+      },
+      {
+        "itemName": "\"Molten Wind\" v.II Ammo",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 160,
+          "hemat": 5
+        }
+      },
+      {
+        "itemName": "Listening Kit",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 150
+        }
+      },
+      {
+        "itemName": "Metal Beam",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 25
+        }
+      },
+      {
+        "itemName": "Radio Backpack",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 150
+        }
+      },
+      {
+        "itemName": "Sandbag",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 15
+        }
+      },
+      {
+        "itemName": "Havoc Charge Detonator",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 75,
+          "hemat": 5
+        }
+      },
+      {
+        "itemName": "Alligator Charge",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 150,
+          "emat": 80
+        },
+        "damageType": "Deals demolition damage"
+      },
+      {
+        "itemName": "Shovel",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 200
+        }
+      },
+      {
+        "itemName": "Sledge Hammer",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 200
+        }
+      },
+      {
+        "itemName": "Abisme AT-99",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100,
+          "emat": 10
+        },
+        "damageType": "Deal anti-tank explosive damage",
+        "damageDesc": "Always disables the track subsystem"
+      },
+      {
+        "itemName": "Tripod",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        }
+      },
+      {
+        "itemName": "Wrench",
+        "alternative_names": [ "hello"
+			
+		],
+		"cost": {
+          "bmat": 75
+        }
+      },
+      {
+        "itemName": "Water Bucket",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 80
+        }
+      },
+      {
+        "itemName": "Buckhorn CCQ-18",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 40
+        }
+      },
+      {
+        "itemName": "Gas Mask",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 160
+        }
+      },
+      {
+        "itemName": "Gas Mask Filter",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        }
+      },
+      {
+        "itemName": "The Ospreay",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 85,
+          "rmat": 10
+        }
+      },
+      {
+        "itemName": "Radio",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 75
+        }
+      },
+      {
+        "itemName": "Rocket Booster",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 800
+        }
+      },
+      {
+        "itemName": "Bandages",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 80
+        }
+      },
+      {
+        "itemName": "First Aid Kit",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 60
+        }
+      },
+      {
+        "itemName": "Trauma Kit",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 80
+        }
+      },
+      {
+        "itemName": "Blood Plasma",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 80
+        }
+      },
+      {
+        "itemName": "Soldier Supplies",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 80
+        }
+      },
+      {
+        "itemName": "Maintenance Supplies",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 250
+        }
+      },
+      {
+        "itemName": "Material pallet",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 75
+        }
+      },
+      {
+        "itemName": "Concrete Mixer",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 225
+        }
+      },
+      {
+        "itemName": "68mm Anti-Tank Cannon",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 450
+        }
+      },
+      {
+        "itemName": "50-500 \"Thunderbolt\" Cannon",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 585
+        }
+      },
+      {
+        "itemName": "Huber Exalt 150mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 525
+        }
+      },
+      {
+        "itemName": "Huber Lariat 120mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 105
+        }
+      },
+      {
+        "itemName": "Leary Snare Trap 127",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 225
+        }
+      },
+      {
+        "itemName": "Resource Container",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 150
+        }
+      },
+      {
+        "itemName": "Shipping Container",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "DAE 1o-3 \"Polybolos\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 375
+        }
+      },
+      {
+        "itemName": "DAE 1b-2 \"Serra\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "Fuel Container",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "r-12 - \"Salus\" Ambulance",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 450
+        }
+      },
+      {
+        "itemName": "Dunne Responder 3e",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 450
+        }
+      },
+      {
+        "itemName": "T3 \"Xiphos\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 75
+        }
+      },
+      {
+        "itemName": "O'Brien v.110",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 75
+        }
+      },
+      {
+        "itemName": "R-15 - \"Chariot\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "Dunne Caravaner 2F",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "AA-2 Battering Ram",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 60
+        }
+      },
+      {
+        "itemName": "120-68 \"Koronides\" Field Gun",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 150
+        }
+      },
+      {
+        "itemName": "G40 \"Sagittarii\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 60
+        }
+      },
+      {
+        "itemName": "Noble Widow MK. XIV",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 480
+        },
+        "highVelocityBonus": "Equipped with a high velocity barrel that deals 75% extra damage per shot."
+      },
+      {
+        "itemName": "Collins Cannon 68mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 60
+        }
+      },
+      {
+        "itemName": "Balfour Wolfhound 40mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 90
+        }
+      },
+      {
+        "itemName": "Swallowtail 988/127-2",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 60
+        },
+        "highVelocityBonus": "Equipped with a high velocity barrel that deals 20% extra damage per shot."
+      },
+      {
+        "itemName": "Balfour Falconer 250mm",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 105
+        }
+      },
+      {
+        "itemName": "BMS - Packmule Flatbed",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 90
+        }
+      },
+      {
+        "itemName": "HH-a \"Javelin\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 165
+        }
+      },
+      {
+        "itemName": "Niska Mk. I Gun Motor Carriage",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 180
+        }
+      },
+      {
+        "itemName": "AB-8 \"Acheron\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 60
+        }
+      },
+      {
+        "itemName": "Mulloy LPC",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 60
+        }
+      },
+      {
+        "itemName": "H5 \"Hatchet\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 345
+        }
+      },
+      {
+        "itemName": "86K-a \"Bardiche\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 495
+        }
+      },
+      {
+        "itemName": "85K-b \"Falchion\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 405
+        },
+        "numberProducedBonus": "2x bonus vehicles produced per crate"
+      },
+      {
+        "itemName": "HC-7 \"Ballista\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 465
+        }
+      },
+      {
+        "itemName": "03MM \"Caster\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 255
+        }
+      },
+      {
+        "itemName": "RR-3 \"Stolon\" Tanker.",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "UV-05a \"Argonaut\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 30
+        }
+      },
+      {
+        "itemName": "T12 \"Actaeon\" Tankette",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 105
+        }
+      },
+      {
+        "itemName": "R-1 Hauler",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "R-5 \"Atlas\" Hauler",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 360
+        }
+      },
+      {
+        "itemName": "Devitt Mk. III",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 360
+        }
+      },
+      {
+        "itemName": "Gallagher Outlaw Mk. II",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 495
+        },
+        "highVelocityBonus": "Engine can be boosted for increased top speed."
+      },
+      {
+        "itemName": "Silverhand - Mk. IV",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 465
+        }
+      },
+      {
+        "itemName": "Kivela Power Wheel 80-1",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 255
+        }
+      },
+      {
+        "itemName": "Dunne Fuelrunner 2d",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "King Spire Mk. I",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 210
+        }
+      },
+      {
+        "itemName": "Drummond 100a",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 30
+        }
+      },
+      {
+        "itemName": "Dunne Loadlugger 3c",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 360
+        }
+      },
+      {
+        "itemName": "Dunne Transport",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "BMS - Aquatipper",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 450
+        }
+      },
+      {
+        "itemName": "BMS - Ironship",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 1500
+        }
+      },
+      {
+        "itemName": "Type C - \"Charon\"",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 480
+        }
+      },
+      {
+        "itemName": "74c-2 Ronan Meteora Gunship",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 480
+        }
+      },
+      {
+        "itemName": "74b-1 Ronan Gunship",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 480
+        },
+        "highVelocityBonus": "Equpped with a high velocity barrel that deals 20% extra damage per shot."
+      },
+      {
+        "itemName": "BMS - White Whale",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "rmat": 300
+        }
+      },
+      {
+        "itemName": "BMS - Universal Assemly Rig",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 300
+        }
+      },
+      {
+        "itemName": "BMS - Class 2 Mobile Auto-Crane",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 375
+        }
+      },
+      {
+        "itemName": "Velian Flak Vest",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "3 backpack slots"
+        ]
+      },
+      {
+        "itemName": "Fabri Rucksack",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "8 backpack slots",
+          "Materials have reduced encumberance"
+        ]
+      },
+      {
+        "itemName": "Grenadier's Baldric",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "6 backpack slots",
+          "Grenades stack",
+          "Grenades have reduced encumberance"
+        ]
+      },
+      {
+        "itemName": "Medic Fatigues",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "6 backpack slots",
+          "Bandages and Blood Plasma stack",
+          "First Aid Kits and Trauma Kits have reduced encumberance"
+        ]
+      },
+      {
+        "itemName": "Officialis' Attire",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "6 backpack slots"
+        ]
+      },
+      {
+        "itemName": "Legionary's Oilcoat",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "6 backpack slots",
+          "Kinetic weapon light ammunition stacks",
+          "High resistance to Rain Storms"
+        ]
+      },
+      {
+        "itemName": "Recon Camo",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "5 backpack slots",
+          "High chance of not being detected by enemy intelligence"
+        ]
+      },
+      {
+        "itemName": "Heavy Topcoat",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "6 backpack slots",
+          "Kinetic weapon light ammunition stacks",
+          "Low resistance to Snow Storms"
+        ]
+      },
+      {
+        "itemName": "Tankman's Coveralls",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "7 backpack slots",
+          "Gas Mask Filters stack",
+          "Basic Materials have reduced encumbrance"
+        ]
+      },
+      {
+        "itemName": "Specialist's Overcoat",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "5 backpack slots",
+          "Heavy ammunition has reduced encumbrance"
+        ]
+      },
+      {
+        "itemName": "Gunner's Breastplate",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "3 backpack slots"
+        ]
+      },
+      {
+        "itemName": "Sapper Gear",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "8 backpack slots",
+          "Materials have reduced encumbrance"
+        ]
+      },
+      {
+        "itemName": "Physician's Jacket",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "6 backpack slots",
+          "Bandages and Blood Plasma stack",
+          "First Aid Kits and Trauma Kits have reduced encumbrance"
+        ]
+      },
+      {
+        "itemName": "Officer's Regalia",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "6 backpack slots"
+        ]
+      },
+      {
+        "itemName": "Outrider's Mantle",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "5 backpack slots",
+          "High chance of not being detected by enemy intelligence",
+          "Low resistance to Snow Storms"
+        ]
+      },
+      {
+        "itemName": "Caoivish Parka",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "6 backpack slots",
+          "Kinetic weapon light ammunition stacks",
+          "High resistance to Snow Storms"
+        ]
+      },
+      {
+        "itemName": "Padded Boiler Suit",
+        "alternative_names": [
+			
+		],
+		"cost": {
+          "bmat": 100
+        },
+        "outfitBuffs": [
+          "7 backpack slots",
+          "Gas Mask Filters stack",
+          "Basic Materials have reduced encumbrance"
+        ]
+      }
+    ]
+  }
