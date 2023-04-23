@@ -1,4 +1,4 @@
-import Bot
+from BotObjects import *
 
 if __name__ == "__main__":
-    Bot.run_discord_bot()
+    run_discord_bot()

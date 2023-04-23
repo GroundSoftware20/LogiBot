@@ -1,8 +1,12 @@
 import json
 from BaseObjects import *
-from LogiList import LogiList
 
 itemInfo = {}
+
+def getToken():
+    tokenFile = open("Data\discordToken.txt", "r")
+
+    return tokenFile.read()
 
 def getSpaces(numSpaces):
     if numSpaces <= 0:
@@ -46,7 +50,7 @@ def loadItemInfo(path="data/items.json"):
             if res in cost_field:
                 resources[res] = cost_field[res]
 
-        itemInfo[i["itemName"]] = Cost(resources["bmat"], resources["emat"],resources["hemat"],resources["rmat"])
+        itemInfo[i["itemName"].lower()] = Cost(resources["bmat"], resources["emat"],resources["hemat"],resources["rmat"])
 
 
 
@@ -89,6 +93,10 @@ def addItems(messageObject):
     successItems = []
     print("adding items")
     print(f"command: {messageObject.command}")
+
+    if len(messageObject.arguments) == 0:
+        return "Please insert valid items"
+
     for itemName, quantity in messageObject.arguments.items():
         print(f"{itemName} {quantity}")
         itemMatches = lookupItem(itemName)
@@ -106,13 +114,21 @@ def addItems(messageObject):
             for i in list_directory[channel].itemList.keys():
                 print(f"listing: {i}")
 
-            if not formalItemName in list_directory[channel].itemList.keys():
+            if formalItemName in list_directory[channel].itemList.keys():
                 print("new!")
-                list_directory[channel].itemList[formalItemName].addNumNeeded(quantity)
+                print(channel)
+                print(formalItemName)
+                print(quantity)
+                print(list_directory[channel].itemList)
+                list_directory[channel].itemList[formalItemName].addToNumNeeded(quantity)
             else:
                 print("old")
                 cost = itemInfo[formalItemName]
-                toAdd = Item("formalItemName", cost, quantity)
+                print(formalItemName)
+                print(itemInfo)
+                toAdd = Item(formalItemName, cost, quantity)
+                
+                
                 list_directory[channel].itemList[formalItemName] = toAdd
             successItems.append("\n    " + itemName + " " + str(quantity))
         
