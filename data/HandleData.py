@@ -52,8 +52,6 @@ def loadItemInfo(path="data/items.json"):
 
         itemInfo[i["itemName"].lower()] = Cost(resources["bmat"], resources["emat"],resources["hemat"],resources["rmat"])
 
-
-
 list_directory = {}
 
 #These functions are for changing the LogiList
@@ -91,49 +89,32 @@ def addItems(messageObject):
 
     errorItems = []
     successItems = []
-    print("adding items")
-    print(f"command: {messageObject.command}")
 
     if len(messageObject.arguments) == 0:
         return "Please insert valid items"
 
     for itemName, quantity in messageObject.arguments.items():
-        print(f"{itemName} {quantity}")
         itemMatches = lookupItem(itemName)
     
         if len(itemMatches) == 0:
-            print("0")
             errorItems.append("\n    " + itemName + "\n        Did not find matching item names")
 
         elif len(itemMatches) == 1:
-            print(f"one {itemName} {quantity}")
             formalItemName = itemMatches[0]
-
-            print(f"Formal Item Name: {formalItemName}")
-
-            for i in list_directory[channel].itemList.keys():
-                print(f"listing: {i}")
+            print(formalItemName)
 
             if formalItemName in list_directory[channel].itemList.keys():
-                print("new!")
-                print(channel)
-                print(formalItemName)
-                print(quantity)
-                print(list_directory[channel].itemList)
                 list_directory[channel].itemList[formalItemName].addToNumNeeded(quantity)
             else:
-                print("old")
                 cost = itemInfo[formalItemName]
-                print(formalItemName)
-                print(itemInfo)
-                toAdd = Item(formalItemName, cost, quantity)
+                toAdd = LogiListItem(formalItemName, cost, quantity)
                 
                 
                 list_directory[channel].itemList[formalItemName] = toAdd
+                print(list_directory[channel].itemList[formalItemName].name)
             successItems.append("\n    " + itemName + " " + str(quantity))
         
         else:
-            print("two")
             errorString = "\n    " + itemName + "  matches with:"
 
             for item in itemMatches:
@@ -145,80 +126,50 @@ def addItems(messageObject):
 
     if len(successItems) > 0:
         to_return += "The following items were successfully added:"
-        print("success items")
         for item in successItems:
             to_return += item
-            print(f"sucess!: item")
     
     if len(errorItems) > 0:
         to_return += "\n\nThe following items could not be added:"
         for item in errorItems:
             to_return += item
-    print(f"to_return: {to_return}")
     return to_return
-    ''' 
-    #
-    #if len(str) % 2 == 1:
-    #    return "Odd Argument Error"
 
-    #itemName = ""
-    #quantity = 0
+def modifyLogiList(messageObject, listToModify):
+    channel = messageObject.channel
+    
+    if not channel in list_directory:
+        return "A logi list does not exist for this channel"
 
-    #errorItems = []
-    #successItems = []
+    for item, amount in messageObject.arguments.items():
+        print(item)
+        print(amount)
+        itemMatches = lookupItem(item)
+        newItem = itemMatches[0]
+        if newItem in list_directory[channel].itemList.keys():
 
-    #for i in range(0, len(str), 2):
+            print("present")
+            if messageObject.command == "/unsignup" or messageObject.command == "/uncomplete":
+                amount *= -1
 
-    #    if str[i].isdigit() == str[i + 1].isdigit():
-    #        return "Two consecutive Integers/Strings"
-        
-    #    if str[i].isdigit():
-    #        itemName = str[i + 1]
-    #        quantity = int(str[i])
-      
-       else:
-            itemName = str[i]
-            quantity = int(str[i + 1])
-        print(f"{itemName} {quantity}")
-        #look up item and put it in the list here
-        itemMatches = lookupItem(itemName)
-
-        if len(itemMatches) == 0:
-            errorItems.append("\n    " + itemName + "\n        Did not find matching item names")
-
-        elif len(itemMatches) == 1:
-
-            formalItemName = itemMatches[0]
-            if formalItemName in list_directory[channel].itemList:
-                list_directory[channel].itemList[formalItemName].addNumNeeded(quantity)
-            else:
-                list_directory[channel].itemList[formalItemName] = Item(formalItemName, itemInfo[formalItemName], quantity)
-            successItems.append("\n    " + itemName)
-        
+            list_directory[channel].itemList[newItem].modifyList(listToModify, amount)
         else:
-            errorString = "\n    " + itemName + "  matches with:"
+            print("not present")
 
-            for item in itemMatches:
-                errorString += "\n        " + item
-            
-            errorItems.append(errorString)
-    
-    to_return = ""
+    return "success"
 
-    if len(successItems) > 0:
-        to_return += "The following items were successfully added:"
+def signup(messageObject):
+    return modifyLogiList(messageObject, ListType.numSignedUp)
+    
+def complete(messageObject):
+    return modifyLogiList(messageObject, ListType.numCompleted)
 
-        for item in successItems:
-            to_return += item
-    
-    if len(errorItems) > 0:
-        to_return += "\n\nThe following items could not be added:"
-        for item in errorItems:
-            to_return += item
-    
-    return to_return
-    '''
-        
+def unsignup(messageObject):
+    return modifyLogiList(messageObject, ListType.numSignedUp)
+
+def uncomplete(messageObject):
+    return modifyLogiList(messageObject, ListType.numCompleted)
+
 
 #These functions are for viewing the LogiList
 def viewLogiList(channel):
@@ -238,12 +189,14 @@ def viewLogiList(channel):
         to_return += "\n(No items in the list yet)"
     #Go through LogiList
     for item_instance in list_directory[channel].itemList.keys():
+        print(item_instance)
         item = list_directory[channel].itemList[item_instance]
+        print(item.name)
         to_return += "\n| " + item.name + getSpaces(len(columns[0]) + 1 - len(item.name))
-        to_return += "| " + str(item.numNeeded) + getSpaces(len(columns[1]) + 1 - len(str(item.numNeeded)))
-        to_return += "| " + str(item.numSignedUp) + getSpaces(len(columns[2]) + 1 - len(str(item.numSignedUp)))
-        to_return += "| " + str(item.numCompleted) + getSpaces(len(columns[3]) + 1 - len(str(item.numCompleted)))
-        to_return += "| " + str(item.numRemaining) + getSpaces(len(columns[4]) + 1 - len(str(item.numRemaining)))
+        to_return += "| " + str(item.getNumNeeded()) + getSpaces(len(columns[1]) + 1 - len(str(item.getNumNeeded())))
+        to_return += "| " + str(item.getNumSignedUp()) + getSpaces(len(columns[2]) + 1 - len(str(item.getNumSignedUp())))
+        to_return += "| " + str(item.getNumCompleted()) + getSpaces(len(columns[3]) + 1 - len(str(item.getNumCompleted())))
+        to_return += "| " + str(item.getNumRemaining()) + getSpaces(len(columns[4]) + 1 - len(str(item.getNumRemaining()))) + '|'
     
     to_return += "```"
 

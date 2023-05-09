@@ -36,8 +36,9 @@ class Message:
         #Otherwise, we should process the arguments and send a response
         self.shouldRespond = True
         self.command = matches.group("command")
-        argumentsToProcess = matches.group("arguments")
 
+
+        self.rawArguments = matches.group("arguments")
         '''
             In this case, we want to pair up integers and item names
 
@@ -61,18 +62,21 @@ class Message:
                     grenade 20 30 guns
         '''
         self.arguments = {}
-        parser = re.compile("[\s]+((?P<item>[a-zA-Z][a-zA-Z]+[a-zA-Z])[\t ]+(?P<quantity>\d+))|((?P<quantity2>\d+)[\t ]+(?P<item2>[a-zA-Z][a-zA-Z ]*[a-zA-Z]))")
-        for m in parser.finditer(argumentsToProcess):
+        nonDigitWord= "(?:[a-z\d]*[a-z][a-z\d]*)"
+        nameMatch = "(?:(" + nonDigitWord + " *)*" + nonDigitWord + ")"
+        parser = re.compile("((?P<item1>" + nameMatch +") +(?P<amount1>\d+))|((?P<amount2>/d+)(?P<item2> " + nameMatch + "))")
+
+        for m in parser.finditer(self.rawArguments):
             
             itemName = ""
             amount = ""
 
-            if m.group("item"):
-                itemName = m.group("item")
-                amount = m.group("quantity")
+            if m.group("item1"):
+                itemName = m.group("item1")
+                amount = m.group("amount1")
             
             elif m.group("item2"):
                 itemName = m.group("item2")
-                amount = m.group("quantity2")
+                amount = m.group("amount2")
             
             self.arguments[itemName] = int(amount)

@@ -18,13 +18,13 @@ def handle_response(messageObject)->str:
     
     #signup and completion actions
     elif command == "/signup":
-        return "run signup"
+        return signup(messageObject)
     elif command == "/unsignup":
-        return "run unsignup"
+        return unsignup(messageObject)
     elif command == "/complete":
-        return "run complete"
+        return complete(messageObject)
     elif command == "/uncomplete":
-        return "run uncomplete"
+        return uncomplete(messageObject)
     
     #view information
     elif command == "/view":
